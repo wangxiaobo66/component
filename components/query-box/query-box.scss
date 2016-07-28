@@ -1,0 +1,119 @@
+/*高度撑满需要设置body height:100%*/
+.query-box {
+  input, button, select, textarea {
+    outline: none;
+    border: none;
+  }
+  textarea {
+    resize: none
+  }
+  float: left;
+  line-height: 30px;
+  .ipt-name {
+    float: left;
+    color: #666;
+    font-size: 12px;
+    margin-right: 10px;
+    input {
+      height: 30px;
+      border: 1px solid #b5b5b5;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+    }
+  }
+  .ipt-time {
+    float: left;
+    color: #333;
+    font-size: 12px;
+    input {
+      width: 50px;
+      height: 30px;
+      border: 1px solid #b5b5b5;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+    }
+  }
+  .ipt-button {
+    float: right;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    font-size: 12px;
+    background-color: #e74c3c;
+    border-radius: 3px;
+    margin-left: 40px;
+  }
+  .ipt-button:hover {
+    background-color: #cc4436;
+  }
+  .ipt-checkbox {
+    cursor: pointer;
+    float: left;
+    color: #333;
+    font-size: 12px;
+    margin-left: 20px;
+    i {
+      margin-right: 5px;
+    }
+  }
+  .ipt-radio {
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    margin-left: 20px;
+    i {
+      margin-right: 5px;
+    }
+  }
+  .ipt-text {
+    float: left;
+  }
+  input.ipt-text {
+    height: 32px;
+    border: 1px #999 solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #b5b5b5;
+    color: #333;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding-left: 10px;
+  }
+
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .ipt-check:before {
+    content: "\e634";
+    color: #b5b5b5;
+  }
+
+  .ipt-checked:before {
+    content: "\e636";
+    color: #29c7ca;
+  }
+
+  .ipt-rad:before {
+    content: "\e638";
+    color: #b5b5b5;
+  }
+
+  .ipt-raded:before {
+    content: "\e630";
+    color: #29c7ca;
+  }
+  .ant-calendar-picker{
+    border:1px solid #b5b5b5;
+    border-radius:3px;
+    margin-left:20px;
+  }
+}

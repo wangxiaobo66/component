@@ -1,0 +1,121 @@
+.module-pages {
+  height: 50px;
+  color: #b5b5b5;
+  font-size: 12px;
+  .active {
+    color: red;
+  }
+
+   .pre, .next {
+    float: left;
+     background-color:#99a1a7;
+     border-radius: 4px;
+  }
+  .input-region{
+    float: right;
+  }
+  .input-region {
+    margin-top:18px;
+  }
+  
+  .select-region {
+    float: right;
+    margin-top: 18px;
+    margin-right: 5px;
+  }
+
+  .num-input {
+    border: none;
+    background: none;
+    padding:0;
+    text-align: center;
+    width: 38px;
+    outline: none;
+  }
+
+  .input-box{
+    height: 20px;
+    line-height: 20px;
+    width: 37px;
+    border: 1px #b5b5b5 solid;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0 5px;
+    display: inline-block;
+  }
+
+  .page-list {
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  .li {
+    float: left;
+  }
+
+
+
+  .go-page {
+    height: 20px;
+    line-height: 20px;
+    width: 37px;
+    border: 1px #b5b5b5 solid;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0;
+    outline: none;
+  }
+
+  .go-page, .num-btn, .pre, .next {
+    color: #b5b5b5;
+    text-align: center;
+    line-height: 18px;
+    text-decoration: none;
+  }
+
+  .num-btn {
+    width: 22px;
+    height: 20px;
+    border-radius: 3px;
+    display: block;
+    line-height: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color:#e7ebee;
+  }
+
+  .num-btn:hover{
+    background-color:#99a1a7;
+    color:#fff;
+  }
+
+  .active {
+    background-color: #29c7ca;
+    color: #ebf7f7;
+  }
+  .active:hover{
+    background-color: #29c7ca;
+    color: #ebf7f7;
+  }
+  .pre, .next {
+    font-family: "iconfont" !important;
+    font-size: 20px;
+    margin-top:2px;
+    color:#e7ebee;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .pre-hover{
+    background-color:#fff;
+    color:#99a1a7;
+  }
+  .next-hover{
+    background-color:#fff;
+    color:#99a1a7;
+  }
+}

@@ -1,0 +1,107 @@
+/*高度撑满需要设置body height:100%*/
+.create-models {
+  float: left;
+
+  input, button, select, textarea {
+    outline: none;
+    border: none;
+  }
+
+  textarea {
+    resize: none
+  }
+  .div{
+    margin:10px 5px;
+  }
+  .label{
+    font-size: 12px;
+    color: #424242;
+    margin-right: 5px;
+    float: left;
+  }
+  .input{
+    border: 1px solid #999;
+    height:20px;
+    border-radius: 3px;
+  }
+  .span{
+    font-size: 12px;
+    color: #ff3025;
+  }
+  .a{
+    height:35px;
+    width: 80px;
+    color: #fff;
+    text-align: center;
+    line-height:35px;
+    text-decoration: none;
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+  }
+  .submit{
+    background-color: #ff331a;
+  }
+  .return{
+    background-color: #45bed9;
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 20px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .unfold{
+    color: #45bed9;
+    cursor: pointer;
+    float: left;
+    display: none;
+  }
+  .put{
+    color: #45bed9;
+    cursor: pointer;
+    float: left;
+    display: none;
+  }
+  .sample-i{
+    color: #45bed9;
+    cursor: pointer;
+    float: right;
+  }
+  .list-div{
+    float: left;
+    position: relative;
+    display: none;
+  }
+  .after{
+    display: block;
+  }
+  .unfold:before {
+    content: "\e60b";
+  }
+  .put:before {
+    content: "\e60b";
+  }
+  .sample-i:before{
+    content: "\e60b";
+  }
+  .sample-div{
+    width: 100px;
+    background-color: #eeeeee;
+    border:1px solid #dddddd;
+    margin:5px 0;
+  }
+  .sample-p{
+    font-size: 12px;
+    margin :0;
+    width:100%;
+    float: left;
+  }
+  .div-content{
+    float: left;
+  }
+}
+
+

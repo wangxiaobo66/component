@@ -1,0 +1,65 @@
+/**
+ * Created by ping on 16/4/18.
+ */
+
+/* common */
+.hidden {
+    display: none !important;
+}
+.block {
+    display: block;
+}
+.ml200 {
+    margin-left: 200px;
+}
+
+/* style */
+.module-boxy {
+    position: fixed;
+    top: 33%;
+    left: 50%;
+    z-index: 210;
+    margin-left: -200px;
+    .boxy-container {
+        position: relative;
+        background-color: #fff;
+        width: 400px;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+    .boxy-content {
+        margin: 70px 0 35px;
+    }
+    .boxy-msg {
+        display: inline-block;
+        margin-bottom: 35px;
+    }
+    .boxy-submit, .boxy-cancel {
+        display: inline-block;
+        border-radius: 4px;
+        padding: 5px 20px;
+    }
+    .boxy-submit {
+        background-color: #66bfd4;
+        color: #fff;
+    }
+    .boxy-submit:hover {
+        background-color: #76cfe4;
+    }
+    .boxy-cancel {
+        background-color: #e6e6e6;
+        margin-left: 35px;
+    }
+    .boxy-cancel:hover {
+        background-color: #eee;
+    }
+    .close-boxy {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .close-boxy span {
+        cursor: pointer;
+    }
+}

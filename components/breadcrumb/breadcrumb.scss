@@ -1,0 +1,41 @@
+.module-breadcrumb {
+
+    .hidden {
+        display: none !important;
+    }
+
+    .breadcrumb {
+        padding: 15px 0;
+        font-size: 12px;
+
+        .breadcrumbName {
+            color: #666;
+            margin-right: 5px;
+        }
+
+        .breadcrumbName:hover {
+            cursor: pointer;
+        }
+
+        .breadcrumbName:nth-last-child(2) {
+            color: #2AC5C9;
+        }
+
+        .breadcrumbName:nth-last-child(2):hover {
+            cursor: default;
+        }
+
+        .arrow {
+            color: #ccc;
+            margin-right: 5px;
+        }
+
+        .arrow:hover {
+            cursor: default;
+        }
+
+        .arrow:last-child {
+            display: none;
+        }
+    }
+}

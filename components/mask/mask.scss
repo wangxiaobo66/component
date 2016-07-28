@@ -1,0 +1,24 @@
+/**
+ * Created by ping on 16/4/21.
+ */
+
+/*common*/
+.hidden {
+    display: none !important;
+}
+.trans {
+    background-color: transparent !important;
+}
+
+/*style*/
+.module-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    filter: opacity(50);
+    background-color: rgba(0,0,0,0.5);
+}

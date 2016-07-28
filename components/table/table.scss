@@ -1,0 +1,33 @@
+.module-table {
+    
+    min-width: 824px;
+
+    .table-container {
+
+        width: 100%;
+        text-align: left;
+        font-size: 12px;
+        color: #333;
+
+        .table-head {
+            min-width: 40px;
+            background-color: #f7f8f8;
+            border: 2px solid #fff;
+            color: #666;
+            width: auto;
+            line-height: 45px;
+            padding-left: 10px;
+
+        }
+
+        .table-row {
+            border-bottom: 1px #ededed solid;
+        }
+
+        .table-cell {
+            font-size: 12px;
+            line-height: 60px;
+            padding-left: 10px;
+        }
+    }
+}
