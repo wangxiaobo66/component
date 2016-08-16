@@ -1,5 +1,5 @@
 /**
- * Created by jin on 16/6/22.
+ * Created by wangxiaobo on 16/6/22.
  */
 function getSelfInfo() {
     return fetch('/scoreweb/user/getSelfInfo', {credentials: 'include'})

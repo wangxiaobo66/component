@@ -1,5 +1,5 @@
 /**
- * Created by jin on 16/4/14.
+ * Created by wangxiaobo on 16/4/14.
  */
 const React = require('react');
 let Component = React.Component;

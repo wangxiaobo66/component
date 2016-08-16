@@ -1,5 +1,5 @@
 /**
- * Created by jin on 16/6/15.
+ * Created by wang on 16/6/15.
  */
 require('company-form.scss');
 const util = require('util');

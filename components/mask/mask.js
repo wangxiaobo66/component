@@ -1,5 +1,5 @@
 /**
- * Created by pingYuan on 16/5/12.
+ * Created by wangxiaobo on 16/5/12.
  * 组件所需props:
  *      maskMsg: state.maskAction --> maskMsg: {
  *          show: false,

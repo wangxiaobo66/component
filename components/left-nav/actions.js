@@ -1,5 +1,5 @@
 /**
- * Created by jin on 16/6/22.
+ * Created by wang on 16/6/22.
  */
 const LEFT_NAV_FIRST = 'LEFT_NAV_FIRST';
 const LEFT_NAV_NEXT = 'LEFT_NAV_NEXT';

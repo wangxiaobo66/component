@@ -1,5 +1,5 @@
 /**
- * Created by wangxiaobo on 16/4/8.
+ * Created by wang on 16/4/8.
  */
 require('create-sample.scss');
 const React = require('react');

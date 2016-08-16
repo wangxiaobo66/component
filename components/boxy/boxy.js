@@ -1,5 +1,5 @@
 /**
- * Created by pingYuan on 16/5/12.
+ * Created by wang on 16/5/12.
  * 1. 组件所需props：
  *      i. boxyMsg: state.boxyAction --> boxyMsg {
  *          show: true/false,

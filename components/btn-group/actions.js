@@ -1,5 +1,5 @@
 /**
- * Created by jin on 16/6/22.
+ * Created by wang on 16/6/22.
  */
 const BTN_GROUP_SURE = 'BTN_GROUP_SURE';
 const BTN_GROUP_MODIFY = 'BTN_GROUP_MODIFY';

@@ -1,5 +1,5 @@
 /* 
- * Created by ping on 16/5/19.
+ * Created by wang on 16/5/19.
  * 组件所需props:
  *     operation: [
  *        {name: 'sure', status: 0},

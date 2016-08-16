@@ -1,5 +1,5 @@
 /**
- * Created by ping on 16/7/12.
+ * Created by wang on 16/7/12.
  */
 
 require('chart-bargroup.scss');

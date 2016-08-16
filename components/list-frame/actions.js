@@ -1,5 +1,5 @@
 /**
- * Created by jin on 16/6/22.
+ * Created by wang on 16/6/22.
  */
 const LIST_FRAME = 'LIST_FRAME';
 const LIST_FRAME_ACTIVE = 'LIST_FRAME_ACTIVE';

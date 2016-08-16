@@ -1,5 +1,5 @@
 /**
- * Created by wangxiaobo on 16/4/8.
+ * Created by wang on 16/4/8.
  */
 require('create-models.scss');
 const React = require('react');

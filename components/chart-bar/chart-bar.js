@@ -1,5 +1,5 @@
 /**
- * Created by ping on 16/6/30.
+ * Created by wang on 16/6/30.
  */
 
 require('chart-bar.scss');

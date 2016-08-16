@@ -1,5 +1,5 @@
 /**
- * Created by jin on 16/6/22.
+ * Created by wang on 16/6/22.
  */
 const BOXY_SHOW = 'BOXY_SHOW';
 const BOXY_HIDE = 'BOXY_HIDE';

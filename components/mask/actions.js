@@ -1,5 +1,5 @@
 /**
- * Created by jin on 16/6/22.
+ * Created by wang on 16/6/22.
  */
 const MASK_SHOW = 'MASK_SHOW';
 const MASK_HIDE = 'MASK_HIDE';

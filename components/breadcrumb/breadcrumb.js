@@ -1,5 +1,5 @@
 /* 
- * Created by ping on 16/6/12.
+ * Created by wang on 16/6/12.
  * 组件所需props:
  *   breadcrumbMsg: [
  *       {name: 'string', url: 'url-link'}
